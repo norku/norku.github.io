@@ -113,7 +113,7 @@ a:active {
 }
  /*=== Media Queries ==================================================*/
  /*For tablets: */
- @media (max-width: 800px) {
+ @media (max-width: 900px) {
    .page-title h1,
    .page-title h2 {
      display: block;
@@ -134,7 +134,7 @@ a:active {
  }
 
 /*For cellphones:*/
- @media (max-width: 500px) {
+ @media (max-width: 700px) {
    .main-header {
      padding-top: 0;
      height: 400px;
@@ -162,7 +162,7 @@ a:active {
     .navigation {
       padding-right: 25%;
     }
-    
+
    .navigation li {
      display: inline-block;
      margin-left: 0.5em;
