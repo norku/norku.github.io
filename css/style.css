@@ -159,9 +159,10 @@ a:active {
      padding-right: 0;
    }
 
-.navigation {
-  padding-right: 25%;
-}
+    .navigation {
+      padding-right: 25%;
+    }
+    
    .navigation li {
      display: inline-block;
      margin-left: 0.5em;
