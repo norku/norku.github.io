@@ -27,7 +27,8 @@ h2 {
 }
 
 footer {
-  background-color: #666666;
+  padding-left: 20%;
+  color: rgba(211, 216, 226, 0.3);
 }
 
  /* === Pseudo classes ================================================ */
@@ -88,7 +89,7 @@ a:active {
 }
 
 .content {
-  color: rgba(211, 216, 226, 0.3);
+  color: rgba(211, 216, 226, 0.5);
   padding: 30px 20%;
 }
 
@@ -97,6 +98,43 @@ a:active {
 .navigation li {
   display: inline-block;
 }
+
+/* #resume .aboutme {
+  float: left;
+  width: 30%;
+  display: inline-block;
+} */
+
+ .education,
+ .workx {
+    padding-right: 2em;
+}
+
+.education {
+  float: left;
+  width: 50%;
+  display: inline-block;
+  text-align: justify;
+}
+
+.workx {
+  float: right;
+  width: 50%;
+  display: inline-block;
+}
+
+.studyplace,
+.workplace {
+  padding-bottom: 5px;
+  line-height: 96%;
+}
+
+.school,
+.title {
+  text-transform: uppercase;
+}
+
+
 
 /*=== More Specific Styles ============================================*/
 
@@ -111,6 +149,14 @@ a:active {
   margin-left: 20px;
   font-weight: lighter;
 }
+
+/*=== Float clearfix ===============*/
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
  /*=== Media Queries ==================================================*/
  /*For tablets: */
  @media (max-width: 900px) {
@@ -131,8 +177,18 @@ a:active {
    .main-header {
      height: 500px;
    }
+
+   .education,
+   .workx {
+     float: none;
+     width: 100%;
+   }
  }
 
+.tweet {
+  width: 48px;
+  height: 48px;
+}
 /*For cellphones:*/
  @media (max-width: 700px) {
    .main-header {
@@ -172,4 +228,15 @@ a:active {
    .content {
      padding: 10px 10%;
    }
+
+   .education,
+   .workx {
+     text-align: left;
+     padding-right: 0;
+   }
+
+   /* .studyplace,
+   .workplace {
+     line-height: 94%;
+   } */
  }
