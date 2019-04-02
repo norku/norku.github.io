@@ -39,20 +39,20 @@ footer {
  }
 
  a:hover {
-   color: yellow;
+   color: rgb(39, 196, 103);
  }
 
  a:visited {
-   color: black;
+   color: rgb(34, 117, 68);
    text-decoration: none;
    font-weight: bold;
  }
 
-a:active {
+/* a:active {
   color: #666666;
   text-decoration: none;
   font-weight: bold;
-}
+} */
 
  /* === Main styles ==================================================== */
 
